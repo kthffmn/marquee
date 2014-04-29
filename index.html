@@ -9,26 +9,51 @@
   </head>
   <body>
     <div class="contain">
-      <div class="display classic">
+      <div class="display classic blue">
         <div class="inner stop">
-          <marquee>This default marquee text scrolls from right to left</marquee>
+          <marquee>Default marquee text scrolls from right to left</marquee>
         </div>
       </div>
 
-      <div class="display slide">
+      <div class="display slide yellow">
         <div class="inner stop">
-          <marquee behavior="slide">This text slides from bottom to top</marquee>
+          <marquee behavior="slide">Slides from bottom to top</marquee>
         </div>
       </div>
 
-      <div class="display bottom-to-top">
+      <div class="display slow red">
+        <div class="inner stop">
+          <marquee scrollamount="1">Scrollamount text is slow and smooth</marquee>
+        </div>
+      </div>
+
+      <div class="display fast-pixels blue">
+        <div class="inner stop">
+          <marquee scrollamount="50">Scrollamount text is jumpy and fast</marquee>
+        </div>
+      </div>
+
+      <div class="display fast red">
+        <div class="inner stop">
+          <marquee scrolldelay="1000">Scrolldelay text is slow because of time between frames</marquee>
+        </div>
+      </div>
+
+      <div class="display fast-fames blue">
+        <div class="inner stop">
+          <marquee scrolldelay="0">Scrolldelay text is fast because of time between frames</marquee>
+        </div>
+      </div>
+
+
+      <div class="display bottom-to-top yellow">
         <marquee direction="up">This direction text scrolls from bottom to top</marquee>
       </div>
 
-      <div class="bouncy-container">
-        <div class="display bouncy">
+      <div class="bouncy-container red">
+        <div class="display bouncy red ">
           <div class="inner">
-            <marquee behavior="alternate">behavior="alternate" text will bounce</marquee>
+            <marquee behavior="alternate">Behavior "alternate" text will bounce</marquee>
           </div>
         </div>
       </div>
