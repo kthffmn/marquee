@@ -28,6 +28,10 @@ body {
 }
 
 /*colors and fonts */
+.purple {
+  background-color: purple;
+  font-family: 'Oleo Script', 'cursive';
+}
 
 .blue  {
   background-color: lightseagreen;
