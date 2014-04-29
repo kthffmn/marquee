@@ -10,23 +10,30 @@
   <body>
     <div class="contain">
       <div class="display classic">
-        <div class="inner">
-          <marquee>This text will scroll from right to left</marquee>
+        <div class="inner stop">
+          <marquee>This default marquee text scrolls from right to left</marquee>
+        </div>
+      </div>
+
+      <div class="display slide">
+        <div class="inner stop">
+          <marquee behavior="slide">This text slides from bottom to top</marquee>
         </div>
       </div>
 
       <div class="display bottom-to-top">
-        <marquee direction="up">This text will scroll from bottom to top</marquee>
+        <marquee direction="up">direction="up" text scrolls from bottom to top</marquee>
       </div>
 
       <div class="bouncy-container">
         <div class="display bouncy">
           <div class="inner">
-            <marquee behavior="alternate">This text will bounce</marquee>
+            <marquee behavior="alternate">behavior="alternate" text will bounce</marquee>
           </div>
         </div>
       </div>
-    </div>
 
+
+    </div> <!-- contain -->
   </body>
 </html>

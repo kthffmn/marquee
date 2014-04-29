@@ -3,9 +3,9 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 
 body {
-  color: white;
   text-align: center;
-  font-size: 4em;
+  font-size: 40px;
+  color: white;
 }
 
 .display {
@@ -18,12 +18,21 @@ body {
 
 .classic {
   background-color: lightseagreen;
-  color: white;
   font-family: 'Oleo Script', 'cursive';
+}
+
+.slide {
+  background-color: #34BA70;
+  font-family: 'Pacifico', 'cursive';
 }
 
 .inner {
   padding-top: 95px;
+}
+
+.stop {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .bottom-to-top {
@@ -38,6 +47,6 @@ body {
 
 .bouncy {
   background-color: #C8271A;
-  font-family: 'Pacifico', 'cursive';
+  font-family: 'Oleo Script', 'cursive';
   width: 50%;
 }
