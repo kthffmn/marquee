@@ -18,7 +18,7 @@ function animateBall() {
   }
    
   function circle(x,y,r) {
-    ctx.fillStyle = "#DC143C"
+    ctx.fillStyle = "#4ECDC4"
     ctx.beginPath();
     ctx.arc(x, y, r, 0, Math.PI*2, true);
     ctx.closePath();
@@ -27,10 +27,10 @@ function animateBall() {
 
   function draw() {
     clear();
-    circle(x, y, 10);
-    if (x + dx + 7 > WIDTH || x + dx - 7 < 0)
+    circle(x, y, 15);
+    if (x + dx + 15 > WIDTH || x + dx - 15 < 0)
       dx = - dx;
-    if (y + dy + 7 > HEIGHT || y + dy - 7 < 0)
+    if (y + dy + 15 > HEIGHT || y + dy - 15 < 0)
       dy = - dy;
    
     x += dx;

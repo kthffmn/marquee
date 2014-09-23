@@ -4,22 +4,30 @@
     <!-- libraries -->
     <script src="./public/js/libraries/jquery.min.js"></script>
     <script src="./public/js/libraries/d3.min.js"></script>
-    <link   href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="./public/js/libraries/silky_smooth_marquee.js"></script>
+    <link   href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- bootstrap -->
     <link   href="./public/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"></link>
     <link   href="./public/css/bootstrap/bootstrap-theme.min.css" rel="stylesheet" type="text/css"></link>
     <script src="./public/js/libraries/bootstrap.min.js"></script>
     <!-- custom -->
-    <script src="./public/js/animation.js"></script>
-    <script src="./public/js/ball.js"></script>
     <link   href="./public/css/ball.css" rel="stylesheet" type="text/css"></link>
-    <title>Bouncing Ball</title>
+    <link   href="./public/css/ball_4.css" rel="stylesheet" type="text/css"></link>
+    <title>Marquee Element</title>
   </head>
   <body>
-
-    <canvas id="canvas" width="350" height="275">
-    </canvas>
-
+    <div class="container">
+      <div class="marquee-container">
+        <marquee behavior="alternate" direction="up" height="300">
+          <div class="child">
+            <marquee behavior="alternate">
+              <div class="circle-time">
+                <i class="fa fa-circle fa-3x"></i>
+              </div>
+            </marquee>
+          </div>
+        </marquee>
+      </div>
+    </div>
   </body>
 </html>

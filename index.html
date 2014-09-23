@@ -4,80 +4,25 @@
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-  <link href="public/css/index.css" rel="stylesheet" type="text/css">
-      <title>Marquee</title>
+  <title>Marquee</title>
   </head>
   <body>
-
-    <ul>
-      <li><a href="js_mimic">See Javascript Mimic</a></li>
-      <li><a href="ball">See Bouncing Ball</a></li>
-    </ul>
-
-    <div class="contain">
-
-      <div class="parent orange">
-        <marquee behavior="alternate" direction="up" height="500">
-          <div class="child pink">
-            <marquee behavior="alternate">DIAMOND</marquee>
-          </div>
-        </marquee>
+    <style>
+      .list-container {
+        padding-top: 150px;
+      }
+    </style>
+    <div class="container">
+      <div class="list-container">
+        <ul>
+          <li><a href="examples">See Examples</a></li>
+          <li><a href="js_mimic">See Javascript Mimic</a></li>
+          <li><a href="ball_mimic">See Bouncing Ball Mimic</a></li>
+          <li><a href="ball-4">See Ball 4</a></li>
+          <li><a href="ball-5">See Ball 5</a></li>
+          <li><a href="ball-6">See Ball 6</a></li>
+        </ul>
       </div>
-
-      <div class="display classic blue">
-        <div class="inner stop">
-          <marquee>Default marquee text scrolls from right to left</marquee>
-        </div>
-      </div>
-
-      <div class="display slide yellow">
-        <div class="inner stop">
-          <marquee behavior="slide">Slides from bottom to top</marquee>
-        </div>
-      </div>
-
-      <div class="display slow red">
-        <div class="inner stop">
-          <marquee scrollamount="1">Scrollamount text is slow and smooth</marquee>
-        </div>
-      </div>
-
-      <div class="display fast-pixels blue">
-        <div class="inner stop">
-          <marquee scrollamount="50">Scrollamount text is jumpy and fast</marquee>
-        </div>
-      </div>
-
-      <div class="display fast red">
-        <div class="inner stop">
-          <marquee scrolldelay="1000">Scrolldelay text is slow because of time between frames</marquee>
-        </div>
-      </div>
-
-      <div class="display fast-fames blue">
-        <div class="inner stop">
-          <marquee scrolldelay="0">Scrolldelay text is fast because of time between frames</marquee>
-        </div>
-      </div>
-
-      <div class="display bottom-to-top yellow">
-        <marquee direction="up">This direction text scrolls from bottom to top</marquee>
-      </div>
-
-      <div class="bouncy-container red">
-        <div class="display bouncy red ">
-          <div class="inner">
-            <marquee behavior="alternate">Behavior "alternate" text will bounce</marquee>
-          </div>
-        </div>
-      </div>
-
-      <div class="display purple">
-        <marquee>
-          <marquee direction="up">NESTED</marquee>
-        </marquee>
-      </div>
-
-    </div> <!-- contain -->
+    </div>
   </body>
 </html>
