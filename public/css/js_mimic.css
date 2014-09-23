@@ -1,7 +1,10 @@
+body {
+  background-color: whitesmoke;
+}
 .marqee-container {
   width: 350px;
   padding: 20px 0px 20px 0px;
-  background-color: lightblue;
+  background-color: white;
   height: 70px;
 }
 
