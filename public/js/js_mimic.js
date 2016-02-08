@@ -1,3 +1,3 @@
 $( document ).ready(function() {
-  $('.marquee').marquee("bigger");
+  $('.marquee').marquee('bigger');
 });

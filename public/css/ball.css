@@ -6,10 +6,32 @@
 
 .child {
   background-color: #FF6B6B;
+  max-height: 48px;
 }
 
 .circle-time {
   background-color: #C7F464;
   color:#C7F464;
-  max-width: 50px;
+  max-width: 42px;
+}
+
+.orange-bar {
+  background-color: #FF6B6B;
+}
+
+.green-square {
+  background-color: #C7F464;
+  width: 42px;
+}
+
+.child.invisible, .circle-time.invisible {
+  background-color: #4ECDC4;
+}
+
+#invisible {
+  color: #C7F464;
+}
+
+#ball {
+  color: white;
 }
