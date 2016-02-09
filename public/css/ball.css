@@ -1,35 +1,22 @@
-.marquee-container {
+.container {
   width: 400px;
   height: 300px;
   background-color: #4ECDC4;
 }
 
-.child {
+.bar {
   background-color: #FF6B6B;
-  max-height: 48px;
 }
 
-.circle-time {
+.square {
   background-color: #C7F464;
   color:#C7F464;
-  max-width: 42px;
+  width: 43px;
+  height: 43px;
 }
 
-.orange-bar {
-  background-color: #FF6B6B;
-}
-
-.green-square {
-  background-color: #C7F464;
-  width: 42px;
-}
-
-.child.invisible, .circle-time.invisible {
+.bar.invisible, .square.invisible {
   background-color: #4ECDC4;
-}
-
-#invisible {
-  color: #C7F464;
 }
 
 #ball {
