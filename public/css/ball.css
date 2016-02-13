@@ -12,13 +12,17 @@
   background-color: #C7F464;
   color:#C7F464;
   width: 43px;
-  height: 45px;
+  height: 43px;
 }
 
 .bar.invisible, .square.invisible {
   background-color: #4ECDC4;
 }
 
-#ball {
-  color: white;
+.circle {
+  width: 42px;
+  height: 42px;
+  background-color: white;
+  -moz-border-radius: 21px;
+  border-radius: 21px;
 }
